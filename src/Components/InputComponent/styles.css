@@ -1,0 +1,26 @@
+.label-input{
+    text-transform: capitalize;
+    margin-bottom:0.5rem;
+}
+.custom-input{
+    border-width: 0;
+    font-size: 1rem;
+    border-bottom-width:1px;
+    width:100%;
+    padding:0.5rem 0rem;
+    opacity:0.8rem;
+    outline:none;
+    
+}
+.custom-input:hover{
+    opacity:1rem;
+    outline:none;
+    transition: all 0.2s;
+}
+.custom-input::placeholder{
+    color: gray;
+    font-size: 0.9rem;
+}
+.input-wrapper{
+    padding-bottom: 7px;
+}

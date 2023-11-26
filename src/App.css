@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+ body{
+  font-family: 'Montserrat', sans-serif;
+  margin:0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input{
+  font-family: 'Montserrat', sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+  --theme:#2970ff;
+  --black:#000;
+  --white:#fff;
+  --shadow:0px 0px 30px 8px rgba(227,227,227,0.75);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.wrapper-form{
+  display:flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width:100vw;
+  height:90vh;
 }
-
-.App-link {
-  color: #61dafb;
+/* .noTransaction-div{
+  display:flex;
+  align-items: center;
+} */
+.transaction-img{
+  object-fit: cover;
+  width:15rem;
+  margin-left:500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.no-transaction{
+  margin-left: 42%;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }

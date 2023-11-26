@@ -1,0 +1,45 @@
+.table-filter-section{
+    display:flex;
+    align-items: center;
+    padding:10px;
+}
+.search-input{
+    width:80%;
+    height:4vh;
+    border-radius: 5px;
+    border:none;
+    box-shadow:var(--shadow);
+    margin-right: 10px;
+    margin-left: 0;
+    
+}
+.search-input:focus{
+    outline: none;
+
+}
+.select-input{
+    width:20%;
+    box-shadow:var(--shadow);
+     outline: none;
+}
+.sorting-section-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.transaction-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.export-btns{
+    display: flex;
+    align-items: center;
+    padding:10px;
+    gap:10px;
+    
+}
+
