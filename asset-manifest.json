@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/financely-react-web/static/css/main.bf9e2619.css",
+    "main.js": "/financely-react-web/static/js/main.034297b6.js",
+    "static/media/noTransaction.svg": "/financely-react-web/static/media/noTransaction.bbfbf56094a7be3c3819c7aef32bcdc3.svg",
+    "index.html": "/financely-react-web/index.html",
+    "static/media/magnifyingGlass.svg": "/financely-react-web/static/media/magnifyingGlass.607953936f5f5a0b38f1ee73776ac0c8.svg",
+    "main.bf9e2619.css.map": "/financely-react-web/static/css/main.bf9e2619.css.map",
+    "main.034297b6.js.map": "/financely-react-web/static/js/main.034297b6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf9e2619.css",
+    "static/js/main.034297b6.js"
+  ]
+}
